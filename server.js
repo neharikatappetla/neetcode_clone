@@ -6,7 +6,7 @@ app.get("/",function(req,res){
 })
 
 app.get("/myName",function(req,res){
-    res.send("/Neharika");
+    res.send("Neharika");
 })
 
 app.listen(3000,function(){
